@@ -1,3 +1,4 @@
+#define TEMP_PIN A0 // Pino da temperatura
 #define EN_PIN    2 // Pino de enable do TCM2208
 #define STEP_PIN  3 // Pino de step do TCM2208
 #define DIR_PIN   4 // Pino de direction do TCM2208
@@ -7,7 +8,9 @@
 #define SCREEN_HEIGHT 32 // OLED display height, in pixels
 #define OLED_RESET     -1 // Reset pin # (or -1 if sharing Arduino reset pin)
 #define SCREEN_ADDRESS 0x3C ///< See datasheet for Address; 0x3D for 128x64, 0x3C for 128x32
-
+#define PWM_PIN_MOSFET_HOTEND 5 // Pino que controla o HOTEND/HEAT
+#define PWM_FAN 6 // Pino que controla a FAN
+#define SECOND_BTN 10 // Botao secundario que controla o estado e os sets
 
 #include <Arduino.h>
 #include <SPI.h>
@@ -15,13 +18,32 @@
 #include <Adafruit_GFX.h>
 #include <Adafruit_SSD1306.h>
 #include <AccelStepper.h>
-
+#include <thermistor.h>
 
 int max_speed = 1000;
 int rotating_speed = 0;
 bool activate_stepper = false;
 bool but_start_state = true;
 int but;
+
+
+double temperature_read = 0.0;
+
+double bits2temp(float *temp){
+	//return 1.01961 * (*temp);
+	return (((*temp) + 23)/0.93) + 2.5;
+}
+
+void changeState(int *stat){
+	if(!digitalRead(SECOND_BTN)){
+		*stat += 1;
+		delay(500);
+	}
+
+	if(*stat == 4){
+		*stat = 0;
+	}
+}
 
 // Variables for timing the display updates
 unsigned long previousMillis = 0;
@@ -32,19 +54,22 @@ const long interval = 500; // Interval at which to update the display (in millis
 AccelStepper stepper_controler(AccelStepper::DRIVER, STEP_PIN, DIR_PIN); // (Type of driver: with 2 pins, STEP, DIR)
 Adafruit_SSD1306 display(SCREEN_WIDTH, SCREEN_HEIGHT, &Wire, OLED_RESET);
 
+thermistor therm1(TEMP_PIN,0);
 
 void setup()
 {
   Serial.begin(115200);
+  
+  pinMode(SECOND_BTN,INPUT_PULLUP);
+  pinMode(PWM_PIN_MOSFET_HOTEND,OUTPUT);
+  pinMode(PWM_FAN,OUTPUT);
 
   pinMode(SPEED_POT, INPUT); // Coloca o botao de controle de velocidade como input
   stepper_controler.setMaxSpeed(max_speed);
   pinMode(EN_PIN, OUTPUT); // set the EN_PIN as an output
   digitalWrite(EN_PIN, LOW); // activate driver
-  // stepper_controler.setSpeed(0);
   pinMode(BUT_EN_START,INPUT_PULLUP); // Coloca o botao de start no modo de input
   
-  // SSD1306_SWITCHCAPVCC = generate display voltage from 3.3V internally
   if(!display.begin(SSD1306_SWITCHCAPVCC, SCREEN_ADDRESS)) {
     Serial.println(F("SSD1306 allocation failed"));
     for(;;); // Don't proceed, loop forever
@@ -56,58 +81,119 @@ void setup()
   
 }
 
-
+int activate_system = false;
+int state = 0;
+float fan_speed = 0.0;
+float hot_temp = 0.0;
 
 void loop()
 {
+    //analogWrite(PWM_FAN,255);
+    //analogWrite(PWM_PIN_MOSFET_HOTEND,0);
     
+    // stepper_controler.runSpeed();
     stepper_controler.runSpeed();
+    
     but = digitalRead(BUT_EN_START);
 
-    if(!but && but_start_state){
-       but_start_state = false;
-       activate_stepper = !activate_stepper;
-       delay(20);
+    if(!but){
+    	activate_system = !activate_system;
+	delay(500);
     }
-    else if(but && !but_start_state){
-       but_start_state = true;
-    }
-    
-    
-    if(activate_stepper){
-    	rotating_speed = map(analogRead(SPEED_POT),0,1024,0,max_speed);
-    	stepper_controler.setSpeed(rotating_speed);
-	//stepper_controler.runSpeed();
-    }else{
-	stepper_controler.setSpeed(0);
-	//stepper_controler.runSpeed();
+    // if(!but && but_start_state){
+    //    but_start_state = false;
+    //    activate_stepper = !activate_stepper;
+    //    delay(20);
+    // }
+    // else if(but && !but_start_state){
+    //    but_start_state = true;
+    // }
+    //
+    changeState(&state);
+    if(activate_system){
+	switch(state){
+		case 1:
+    			rotating_speed = map(analogRead(SPEED_POT),0,1024,0,max_speed);
+    			stepper_controler.setSpeed(rotating_speed);
+			break;
+		case 2:
+			fan_speed = map(analogRead(SPEED_POT),0,1024,0,255);
+			analogWrite(PWM_FAN,fan_speed);
+			break;
+		case 3:
+			hot_temp = map(analogRead(SPEED_POT),0,1024,0,255);
+			analogWrite(PWM_PIN_MOSFET_HOTEND,hot_temp);
+			break;
+		default:
+			break;
+	}
+	//changeState(&state);
+
+	//Serial.print("Botao secundario: ");
+	//Serial.println(digitalRead(SECOND_BTN));
+	//delay(20);
+
+	//Serial.print("Botao primario: ");
+	//Serial.println(but);
+
+
     }
     unsigned long currentMillis = millis();
-
-    // Check if it's time to update the display
-    if (currentMillis - previousMillis >= interval) {
-    	// Save the last time the display was updated
-    	previousMillis = currentMillis;    
-    	display.clearDisplay();
-    	display.setCursor(0,0);             // Start at top-left corner
-    	display.print(F("ROT:"));
-    	display.print(stepper_controler.speed());
-    	
-    	display.display();
+    
+    if (currentMillis - previousMillis >= interval){
+         temperature_read = therm1.analog2temp();
     }
-//    stepper_controler.runSpeed();
-    // delay(250);
-    // lcd.clear();
+    
+    if (currentMillis - previousMillis >= interval) {
+     	
+         // Save the last time the display was updated
+     	previousMillis = currentMillis;    
+     	display.clearDisplay();
+     	display.setCursor(0,0);             // Start at top-left corner
+     	display.print(F("ROT:"));
+     	display.print(rotating_speed*0.1);
+	display.println("%");
+     	
+        display.print(F("TERM:"));
+        display.print(temperature_read);
 
-    // lcd.setCursor(0,0);
-    // lcd.print("ROT: ");
-    // lcd.print(stepper_controler.speed());  
-    // // 
-    // lcd.setCursor(0,1);
-    // lcd.print("STS: ");
-    // lcd.print(activate_stepper,1);
+        display.print(" ");
+         
+        display.print("SET:");
+        display.print(bits2temp(&hot_temp));
+	display.println("");
 
-    // lcd.print("ACL: ");
-    // lcd.print(stepper_controler.acceleration());
+	display.print("Act:");
+	if(activate_system){
+		display.print("ON");
+	}else{
+		display.print("OFF");
+	}
+
+	display.print(" ");
+	display.print("STS:");
+	if(state == 1){
+		display.print("STP");
+	}else if(state == 2){
+		display.print("FAN");
+	}else if(state == 3){
+		display.print("HOT");
+	}else{
+		display.print("N/A");
+	}
+	
+	//display.println(activate_system);
+     	display.display();
+     }
+    
+    // if(activate_stepper){
+    // 	rotating_speed = map(analogRead(SPEED_POT),0,1024,0,max_speed);
+    // 	stepper_controler.setSpeed(rotating_speed);
+    // }else{
+    //     stepper_controler.setSpeed(0);
+    // }
+    // unsigned long currentMillis = millis();
+    //     
+
 
 }

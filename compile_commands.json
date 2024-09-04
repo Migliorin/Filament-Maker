@@ -1,242 +1,260 @@
 [
     {
         "command": "/home/lucas/.platformio/packages/toolchain-atmelavr/bin/avr-g++ -o .pio/build/nanoatmega328new/FrameworkArduino/CDC.cpp.o -c -fno-exceptions -fno-threadsafe-statics -fpermissive -std=gnu++11 -mmcu=atmega328p -Os -Wall -ffunction-sections -fdata-sections -flto -DPLATFORMIO=60115 -DARDUINO_AVR_NANO -DF_CPU=16000000L -DARDUINO_ARCH_AVR -DARDUINO=10808 -I/home/lucas/.platformio/packages/framework-arduino-avr/cores/arduino -I/home/lucas/.platformio/packages/framework-arduino-avr/variants/eightanaloginputs /home/lucas/.platformio/packages/framework-arduino-avr/cores/arduino/CDC.cpp",
-        "directory": "/home/lucas/Documentos/TCC-Carlos",
+        "directory": "/home/lucas/Documentos/Filament-Maker",
         "file": "/home/lucas/.platformio/packages/framework-arduino-avr/cores/arduino/CDC.cpp",
         "output": ".pio/build/nanoatmega328new/FrameworkArduino/CDC.cpp.o"
     },
     {
         "command": "/home/lucas/.platformio/packages/toolchain-atmelavr/bin/avr-g++ -o .pio/build/nanoatmega328new/FrameworkArduino/HardwareSerial.cpp.o -c -fno-exceptions -fno-threadsafe-statics -fpermissive -std=gnu++11 -mmcu=atmega328p -Os -Wall -ffunction-sections -fdata-sections -flto -DPLATFORMIO=60115 -DARDUINO_AVR_NANO -DF_CPU=16000000L -DARDUINO_ARCH_AVR -DARDUINO=10808 -I/home/lucas/.platformio/packages/framework-arduino-avr/cores/arduino -I/home/lucas/.platformio/packages/framework-arduino-avr/variants/eightanaloginputs /home/lucas/.platformio/packages/framework-arduino-avr/cores/arduino/HardwareSerial.cpp",
-        "directory": "/home/lucas/Documentos/TCC-Carlos",
+        "directory": "/home/lucas/Documentos/Filament-Maker",
         "file": "/home/lucas/.platformio/packages/framework-arduino-avr/cores/arduino/HardwareSerial.cpp",
         "output": ".pio/build/nanoatmega328new/FrameworkArduino/HardwareSerial.cpp.o"
     },
     {
         "command": "/home/lucas/.platformio/packages/toolchain-atmelavr/bin/avr-g++ -o .pio/build/nanoatmega328new/FrameworkArduino/HardwareSerial0.cpp.o -c -fno-exceptions -fno-threadsafe-statics -fpermissive -std=gnu++11 -mmcu=atmega328p -Os -Wall -ffunction-sections -fdata-sections -flto -DPLATFORMIO=60115 -DARDUINO_AVR_NANO -DF_CPU=16000000L -DARDUINO_ARCH_AVR -DARDUINO=10808 -I/home/lucas/.platformio/packages/framework-arduino-avr/cores/arduino -I/home/lucas/.platformio/packages/framework-arduino-avr/variants/eightanaloginputs /home/lucas/.platformio/packages/framework-arduino-avr/cores/arduino/HardwareSerial0.cpp",
-        "directory": "/home/lucas/Documentos/TCC-Carlos",
+        "directory": "/home/lucas/Documentos/Filament-Maker",
         "file": "/home/lucas/.platformio/packages/framework-arduino-avr/cores/arduino/HardwareSerial0.cpp",
         "output": ".pio/build/nanoatmega328new/FrameworkArduino/HardwareSerial0.cpp.o"
     },
     {
         "command": "/home/lucas/.platformio/packages/toolchain-atmelavr/bin/avr-g++ -o .pio/build/nanoatmega328new/FrameworkArduino/HardwareSerial1.cpp.o -c -fno-exceptions -fno-threadsafe-statics -fpermissive -std=gnu++11 -mmcu=atmega328p -Os -Wall -ffunction-sections -fdata-sections -flto -DPLATFORMIO=60115 -DARDUINO_AVR_NANO -DF_CPU=16000000L -DARDUINO_ARCH_AVR -DARDUINO=10808 -I/home/lucas/.platformio/packages/framework-arduino-avr/cores/arduino -I/home/lucas/.platformio/packages/framework-arduino-avr/variants/eightanaloginputs /home/lucas/.platformio/packages/framework-arduino-avr/cores/arduino/HardwareSerial1.cpp",
-        "directory": "/home/lucas/Documentos/TCC-Carlos",
+        "directory": "/home/lucas/Documentos/Filament-Maker",
         "file": "/home/lucas/.platformio/packages/framework-arduino-avr/cores/arduino/HardwareSerial1.cpp",
         "output": ".pio/build/nanoatmega328new/FrameworkArduino/HardwareSerial1.cpp.o"
     },
     {
         "command": "/home/lucas/.platformio/packages/toolchain-atmelavr/bin/avr-g++ -o .pio/build/nanoatmega328new/FrameworkArduino/HardwareSerial2.cpp.o -c -fno-exceptions -fno-threadsafe-statics -fpermissive -std=gnu++11 -mmcu=atmega328p -Os -Wall -ffunction-sections -fdata-sections -flto -DPLATFORMIO=60115 -DARDUINO_AVR_NANO -DF_CPU=16000000L -DARDUINO_ARCH_AVR -DARDUINO=10808 -I/home/lucas/.platformio/packages/framework-arduino-avr/cores/arduino -I/home/lucas/.platformio/packages/framework-arduino-avr/variants/eightanaloginputs /home/lucas/.platformio/packages/framework-arduino-avr/cores/arduino/HardwareSerial2.cpp",
-        "directory": "/home/lucas/Documentos/TCC-Carlos",
+        "directory": "/home/lucas/Documentos/Filament-Maker",
         "file": "/home/lucas/.platformio/packages/framework-arduino-avr/cores/arduino/HardwareSerial2.cpp",
         "output": ".pio/build/nanoatmega328new/FrameworkArduino/HardwareSerial2.cpp.o"
     },
     {
         "command": "/home/lucas/.platformio/packages/toolchain-atmelavr/bin/avr-g++ -o .pio/build/nanoatmega328new/FrameworkArduino/HardwareSerial3.cpp.o -c -fno-exceptions -fno-threadsafe-statics -fpermissive -std=gnu++11 -mmcu=atmega328p -Os -Wall -ffunction-sections -fdata-sections -flto -DPLATFORMIO=60115 -DARDUINO_AVR_NANO -DF_CPU=16000000L -DARDUINO_ARCH_AVR -DARDUINO=10808 -I/home/lucas/.platformio/packages/framework-arduino-avr/cores/arduino -I/home/lucas/.platformio/packages/framework-arduino-avr/variants/eightanaloginputs /home/lucas/.platformio/packages/framework-arduino-avr/cores/arduino/HardwareSerial3.cpp",
-        "directory": "/home/lucas/Documentos/TCC-Carlos",
+        "directory": "/home/lucas/Documentos/Filament-Maker",
         "file": "/home/lucas/.platformio/packages/framework-arduino-avr/cores/arduino/HardwareSerial3.cpp",
         "output": ".pio/build/nanoatmega328new/FrameworkArduino/HardwareSerial3.cpp.o"
     },
     {
         "command": "/home/lucas/.platformio/packages/toolchain-atmelavr/bin/avr-g++ -o .pio/build/nanoatmega328new/FrameworkArduino/IPAddress.cpp.o -c -fno-exceptions -fno-threadsafe-statics -fpermissive -std=gnu++11 -mmcu=atmega328p -Os -Wall -ffunction-sections -fdata-sections -flto -DPLATFORMIO=60115 -DARDUINO_AVR_NANO -DF_CPU=16000000L -DARDUINO_ARCH_AVR -DARDUINO=10808 -I/home/lucas/.platformio/packages/framework-arduino-avr/cores/arduino -I/home/lucas/.platformio/packages/framework-arduino-avr/variants/eightanaloginputs /home/lucas/.platformio/packages/framework-arduino-avr/cores/arduino/IPAddress.cpp",
-        "directory": "/home/lucas/Documentos/TCC-Carlos",
+        "directory": "/home/lucas/Documentos/Filament-Maker",
         "file": "/home/lucas/.platformio/packages/framework-arduino-avr/cores/arduino/IPAddress.cpp",
         "output": ".pio/build/nanoatmega328new/FrameworkArduino/IPAddress.cpp.o"
     },
     {
         "command": "/home/lucas/.platformio/packages/toolchain-atmelavr/bin/avr-g++ -o .pio/build/nanoatmega328new/FrameworkArduino/PluggableUSB.cpp.o -c -fno-exceptions -fno-threadsafe-statics -fpermissive -std=gnu++11 -mmcu=atmega328p -Os -Wall -ffunction-sections -fdata-sections -flto -DPLATFORMIO=60115 -DARDUINO_AVR_NANO -DF_CPU=16000000L -DARDUINO_ARCH_AVR -DARDUINO=10808 -I/home/lucas/.platformio/packages/framework-arduino-avr/cores/arduino -I/home/lucas/.platformio/packages/framework-arduino-avr/variants/eightanaloginputs /home/lucas/.platformio/packages/framework-arduino-avr/cores/arduino/PluggableUSB.cpp",
-        "directory": "/home/lucas/Documentos/TCC-Carlos",
+        "directory": "/home/lucas/Documentos/Filament-Maker",
         "file": "/home/lucas/.platformio/packages/framework-arduino-avr/cores/arduino/PluggableUSB.cpp",
         "output": ".pio/build/nanoatmega328new/FrameworkArduino/PluggableUSB.cpp.o"
     },
     {
         "command": "/home/lucas/.platformio/packages/toolchain-atmelavr/bin/avr-g++ -o .pio/build/nanoatmega328new/FrameworkArduino/Print.cpp.o -c -fno-exceptions -fno-threadsafe-statics -fpermissive -std=gnu++11 -mmcu=atmega328p -Os -Wall -ffunction-sections -fdata-sections -flto -DPLATFORMIO=60115 -DARDUINO_AVR_NANO -DF_CPU=16000000L -DARDUINO_ARCH_AVR -DARDUINO=10808 -I/home/lucas/.platformio/packages/framework-arduino-avr/cores/arduino -I/home/lucas/.platformio/packages/framework-arduino-avr/variants/eightanaloginputs /home/lucas/.platformio/packages/framework-arduino-avr/cores/arduino/Print.cpp",
-        "directory": "/home/lucas/Documentos/TCC-Carlos",
+        "directory": "/home/lucas/Documentos/Filament-Maker",
         "file": "/home/lucas/.platformio/packages/framework-arduino-avr/cores/arduino/Print.cpp",
         "output": ".pio/build/nanoatmega328new/FrameworkArduino/Print.cpp.o"
     },
     {
         "command": "/home/lucas/.platformio/packages/toolchain-atmelavr/bin/avr-g++ -o .pio/build/nanoatmega328new/FrameworkArduino/Stream.cpp.o -c -fno-exceptions -fno-threadsafe-statics -fpermissive -std=gnu++11 -mmcu=atmega328p -Os -Wall -ffunction-sections -fdata-sections -flto -DPLATFORMIO=60115 -DARDUINO_AVR_NANO -DF_CPU=16000000L -DARDUINO_ARCH_AVR -DARDUINO=10808 -I/home/lucas/.platformio/packages/framework-arduino-avr/cores/arduino -I/home/lucas/.platformio/packages/framework-arduino-avr/variants/eightanaloginputs /home/lucas/.platformio/packages/framework-arduino-avr/cores/arduino/Stream.cpp",
-        "directory": "/home/lucas/Documentos/TCC-Carlos",
+        "directory": "/home/lucas/Documentos/Filament-Maker",
         "file": "/home/lucas/.platformio/packages/framework-arduino-avr/cores/arduino/Stream.cpp",
         "output": ".pio/build/nanoatmega328new/FrameworkArduino/Stream.cpp.o"
     },
     {
         "command": "/home/lucas/.platformio/packages/toolchain-atmelavr/bin/avr-g++ -o .pio/build/nanoatmega328new/FrameworkArduino/Tone.cpp.o -c -fno-exceptions -fno-threadsafe-statics -fpermissive -std=gnu++11 -mmcu=atmega328p -Os -Wall -ffunction-sections -fdata-sections -flto -DPLATFORMIO=60115 -DARDUINO_AVR_NANO -DF_CPU=16000000L -DARDUINO_ARCH_AVR -DARDUINO=10808 -I/home/lucas/.platformio/packages/framework-arduino-avr/cores/arduino -I/home/lucas/.platformio/packages/framework-arduino-avr/variants/eightanaloginputs /home/lucas/.platformio/packages/framework-arduino-avr/cores/arduino/Tone.cpp",
-        "directory": "/home/lucas/Documentos/TCC-Carlos",
+        "directory": "/home/lucas/Documentos/Filament-Maker",
         "file": "/home/lucas/.platformio/packages/framework-arduino-avr/cores/arduino/Tone.cpp",
         "output": ".pio/build/nanoatmega328new/FrameworkArduino/Tone.cpp.o"
     },
     {
         "command": "/home/lucas/.platformio/packages/toolchain-atmelavr/bin/avr-g++ -o .pio/build/nanoatmega328new/FrameworkArduino/USBCore.cpp.o -c -fno-exceptions -fno-threadsafe-statics -fpermissive -std=gnu++11 -mmcu=atmega328p -Os -Wall -ffunction-sections -fdata-sections -flto -DPLATFORMIO=60115 -DARDUINO_AVR_NANO -DF_CPU=16000000L -DARDUINO_ARCH_AVR -DARDUINO=10808 -I/home/lucas/.platformio/packages/framework-arduino-avr/cores/arduino -I/home/lucas/.platformio/packages/framework-arduino-avr/variants/eightanaloginputs /home/lucas/.platformio/packages/framework-arduino-avr/cores/arduino/USBCore.cpp",
-        "directory": "/home/lucas/Documentos/TCC-Carlos",
+        "directory": "/home/lucas/Documentos/Filament-Maker",
         "file": "/home/lucas/.platformio/packages/framework-arduino-avr/cores/arduino/USBCore.cpp",
         "output": ".pio/build/nanoatmega328new/FrameworkArduino/USBCore.cpp.o"
     },
     {
         "command": "/home/lucas/.platformio/packages/toolchain-atmelavr/bin/avr-gcc -o .pio/build/nanoatmega328new/FrameworkArduino/WInterrupts.c.o -c -std=gnu11 -fno-fat-lto-objects -mmcu=atmega328p -Os -Wall -ffunction-sections -fdata-sections -flto -DPLATFORMIO=60115 -DARDUINO_AVR_NANO -DF_CPU=16000000L -DARDUINO_ARCH_AVR -DARDUINO=10808 -I/home/lucas/.platformio/packages/framework-arduino-avr/cores/arduino -I/home/lucas/.platformio/packages/framework-arduino-avr/variants/eightanaloginputs /home/lucas/.platformio/packages/framework-arduino-avr/cores/arduino/WInterrupts.c",
-        "directory": "/home/lucas/Documentos/TCC-Carlos",
+        "directory": "/home/lucas/Documentos/Filament-Maker",
         "file": "/home/lucas/.platformio/packages/framework-arduino-avr/cores/arduino/WInterrupts.c",
         "output": ".pio/build/nanoatmega328new/FrameworkArduino/WInterrupts.c.o"
     },
     {
         "command": "/home/lucas/.platformio/packages/toolchain-atmelavr/bin/avr-g++ -o .pio/build/nanoatmega328new/FrameworkArduino/WMath.cpp.o -c -fno-exceptions -fno-threadsafe-statics -fpermissive -std=gnu++11 -mmcu=atmega328p -Os -Wall -ffunction-sections -fdata-sections -flto -DPLATFORMIO=60115 -DARDUINO_AVR_NANO -DF_CPU=16000000L -DARDUINO_ARCH_AVR -DARDUINO=10808 -I/home/lucas/.platformio/packages/framework-arduino-avr/cores/arduino -I/home/lucas/.platformio/packages/framework-arduino-avr/variants/eightanaloginputs /home/lucas/.platformio/packages/framework-arduino-avr/cores/arduino/WMath.cpp",
-        "directory": "/home/lucas/Documentos/TCC-Carlos",
+        "directory": "/home/lucas/Documentos/Filament-Maker",
         "file": "/home/lucas/.platformio/packages/framework-arduino-avr/cores/arduino/WMath.cpp",
         "output": ".pio/build/nanoatmega328new/FrameworkArduino/WMath.cpp.o"
     },
     {
         "command": "/home/lucas/.platformio/packages/toolchain-atmelavr/bin/avr-g++ -o .pio/build/nanoatmega328new/FrameworkArduino/WString.cpp.o -c -fno-exceptions -fno-threadsafe-statics -fpermissive -std=gnu++11 -mmcu=atmega328p -Os -Wall -ffunction-sections -fdata-sections -flto -DPLATFORMIO=60115 -DARDUINO_AVR_NANO -DF_CPU=16000000L -DARDUINO_ARCH_AVR -DARDUINO=10808 -I/home/lucas/.platformio/packages/framework-arduino-avr/cores/arduino -I/home/lucas/.platformio/packages/framework-arduino-avr/variants/eightanaloginputs /home/lucas/.platformio/packages/framework-arduino-avr/cores/arduino/WString.cpp",
-        "directory": "/home/lucas/Documentos/TCC-Carlos",
+        "directory": "/home/lucas/Documentos/Filament-Maker",
         "file": "/home/lucas/.platformio/packages/framework-arduino-avr/cores/arduino/WString.cpp",
         "output": ".pio/build/nanoatmega328new/FrameworkArduino/WString.cpp.o"
     },
     {
         "command": "/home/lucas/.platformio/packages/toolchain-atmelavr/bin/avr-g++ -o .pio/build/nanoatmega328new/FrameworkArduino/abi.cpp.o -c -fno-exceptions -fno-threadsafe-statics -fpermissive -std=gnu++11 -mmcu=atmega328p -Os -Wall -ffunction-sections -fdata-sections -flto -DPLATFORMIO=60115 -DARDUINO_AVR_NANO -DF_CPU=16000000L -DARDUINO_ARCH_AVR -DARDUINO=10808 -I/home/lucas/.platformio/packages/framework-arduino-avr/cores/arduino -I/home/lucas/.platformio/packages/framework-arduino-avr/variants/eightanaloginputs /home/lucas/.platformio/packages/framework-arduino-avr/cores/arduino/abi.cpp",
-        "directory": "/home/lucas/Documentos/TCC-Carlos",
+        "directory": "/home/lucas/Documentos/Filament-Maker",
         "file": "/home/lucas/.platformio/packages/framework-arduino-avr/cores/arduino/abi.cpp",
         "output": ".pio/build/nanoatmega328new/FrameworkArduino/abi.cpp.o"
     },
     {
         "command": "/home/lucas/.platformio/packages/toolchain-atmelavr/bin/avr-gcc -o .pio/build/nanoatmega328new/FrameworkArduino/hooks.c.o -c -std=gnu11 -fno-fat-lto-objects -mmcu=atmega328p -Os -Wall -ffunction-sections -fdata-sections -flto -DPLATFORMIO=60115 -DARDUINO_AVR_NANO -DF_CPU=16000000L -DARDUINO_ARCH_AVR -DARDUINO=10808 -I/home/lucas/.platformio/packages/framework-arduino-avr/cores/arduino -I/home/lucas/.platformio/packages/framework-arduino-avr/variants/eightanaloginputs /home/lucas/.platformio/packages/framework-arduino-avr/cores/arduino/hooks.c",
-        "directory": "/home/lucas/Documentos/TCC-Carlos",
+        "directory": "/home/lucas/Documentos/Filament-Maker",
         "file": "/home/lucas/.platformio/packages/framework-arduino-avr/cores/arduino/hooks.c",
         "output": ".pio/build/nanoatmega328new/FrameworkArduino/hooks.c.o"
     },
     {
         "command": "/home/lucas/.platformio/packages/toolchain-atmelavr/bin/avr-g++ -o .pio/build/nanoatmega328new/FrameworkArduino/main.cpp.o -c -fno-exceptions -fno-threadsafe-statics -fpermissive -std=gnu++11 -mmcu=atmega328p -Os -Wall -ffunction-sections -fdata-sections -flto -DPLATFORMIO=60115 -DARDUINO_AVR_NANO -DF_CPU=16000000L -DARDUINO_ARCH_AVR -DARDUINO=10808 -I/home/lucas/.platformio/packages/framework-arduino-avr/cores/arduino -I/home/lucas/.platformio/packages/framework-arduino-avr/variants/eightanaloginputs /home/lucas/.platformio/packages/framework-arduino-avr/cores/arduino/main.cpp",
-        "directory": "/home/lucas/Documentos/TCC-Carlos",
+        "directory": "/home/lucas/Documentos/Filament-Maker",
         "file": "/home/lucas/.platformio/packages/framework-arduino-avr/cores/arduino/main.cpp",
         "output": ".pio/build/nanoatmega328new/FrameworkArduino/main.cpp.o"
     },
     {
         "command": "/home/lucas/.platformio/packages/toolchain-atmelavr/bin/avr-g++ -o .pio/build/nanoatmega328new/FrameworkArduino/new.cpp.o -c -fno-exceptions -fno-threadsafe-statics -fpermissive -std=gnu++11 -mmcu=atmega328p -Os -Wall -ffunction-sections -fdata-sections -flto -DPLATFORMIO=60115 -DARDUINO_AVR_NANO -DF_CPU=16000000L -DARDUINO_ARCH_AVR -DARDUINO=10808 -I/home/lucas/.platformio/packages/framework-arduino-avr/cores/arduino -I/home/lucas/.platformio/packages/framework-arduino-avr/variants/eightanaloginputs /home/lucas/.platformio/packages/framework-arduino-avr/cores/arduino/new.cpp",
-        "directory": "/home/lucas/Documentos/TCC-Carlos",
+        "directory": "/home/lucas/Documentos/Filament-Maker",
         "file": "/home/lucas/.platformio/packages/framework-arduino-avr/cores/arduino/new.cpp",
         "output": ".pio/build/nanoatmega328new/FrameworkArduino/new.cpp.o"
     },
     {
         "command": "/home/lucas/.platformio/packages/toolchain-atmelavr/bin/avr-gcc -o .pio/build/nanoatmega328new/FrameworkArduino/wiring.c.o -c -std=gnu11 -fno-fat-lto-objects -mmcu=atmega328p -Os -Wall -ffunction-sections -fdata-sections -flto -DPLATFORMIO=60115 -DARDUINO_AVR_NANO -DF_CPU=16000000L -DARDUINO_ARCH_AVR -DARDUINO=10808 -I/home/lucas/.platformio/packages/framework-arduino-avr/cores/arduino -I/home/lucas/.platformio/packages/framework-arduino-avr/variants/eightanaloginputs /home/lucas/.platformio/packages/framework-arduino-avr/cores/arduino/wiring.c",
-        "directory": "/home/lucas/Documentos/TCC-Carlos",
+        "directory": "/home/lucas/Documentos/Filament-Maker",
         "file": "/home/lucas/.platformio/packages/framework-arduino-avr/cores/arduino/wiring.c",
         "output": ".pio/build/nanoatmega328new/FrameworkArduino/wiring.c.o"
     },
     {
         "command": "/home/lucas/.platformio/packages/toolchain-atmelavr/bin/avr-gcc -o .pio/build/nanoatmega328new/FrameworkArduino/wiring_analog.c.o -c -std=gnu11 -fno-fat-lto-objects -mmcu=atmega328p -Os -Wall -ffunction-sections -fdata-sections -flto -DPLATFORMIO=60115 -DARDUINO_AVR_NANO -DF_CPU=16000000L -DARDUINO_ARCH_AVR -DARDUINO=10808 -I/home/lucas/.platformio/packages/framework-arduino-avr/cores/arduino -I/home/lucas/.platformio/packages/framework-arduino-avr/variants/eightanaloginputs /home/lucas/.platformio/packages/framework-arduino-avr/cores/arduino/wiring_analog.c",
-        "directory": "/home/lucas/Documentos/TCC-Carlos",
+        "directory": "/home/lucas/Documentos/Filament-Maker",
         "file": "/home/lucas/.platformio/packages/framework-arduino-avr/cores/arduino/wiring_analog.c",
         "output": ".pio/build/nanoatmega328new/FrameworkArduino/wiring_analog.c.o"
     },
     {
         "command": "/home/lucas/.platformio/packages/toolchain-atmelavr/bin/avr-gcc -o .pio/build/nanoatmega328new/FrameworkArduino/wiring_digital.c.o -c -std=gnu11 -fno-fat-lto-objects -mmcu=atmega328p -Os -Wall -ffunction-sections -fdata-sections -flto -DPLATFORMIO=60115 -DARDUINO_AVR_NANO -DF_CPU=16000000L -DARDUINO_ARCH_AVR -DARDUINO=10808 -I/home/lucas/.platformio/packages/framework-arduino-avr/cores/arduino -I/home/lucas/.platformio/packages/framework-arduino-avr/variants/eightanaloginputs /home/lucas/.platformio/packages/framework-arduino-avr/cores/arduino/wiring_digital.c",
-        "directory": "/home/lucas/Documentos/TCC-Carlos",
+        "directory": "/home/lucas/Documentos/Filament-Maker",
         "file": "/home/lucas/.platformio/packages/framework-arduino-avr/cores/arduino/wiring_digital.c",
         "output": ".pio/build/nanoatmega328new/FrameworkArduino/wiring_digital.c.o"
     },
     {
         "command": "/home/lucas/.platformio/packages/toolchain-atmelavr/bin/avr-gcc -mmcu=atmega328p -x assembler-with-cpp -DPLATFORMIO=60115 -DARDUINO_AVR_NANO -DF_CPU=16000000L -DARDUINO_ARCH_AVR -DARDUINO=10808 -I/home/lucas/.platformio/packages/framework-arduino-avr/cores/arduino -I/home/lucas/.platformio/packages/framework-arduino-avr/variants/eightanaloginputs -c -o .pio/build/nanoatmega328new/FrameworkArduino/wiring_pulse.S.o /home/lucas/.platformio/packages/framework-arduino-avr/cores/arduino/wiring_pulse.S",
-        "directory": "/home/lucas/Documentos/TCC-Carlos",
+        "directory": "/home/lucas/Documentos/Filament-Maker",
         "file": "/home/lucas/.platformio/packages/framework-arduino-avr/cores/arduino/wiring_pulse.S",
         "output": ".pio/build/nanoatmega328new/FrameworkArduino/wiring_pulse.S.o"
     },
     {
         "command": "/home/lucas/.platformio/packages/toolchain-atmelavr/bin/avr-gcc -o .pio/build/nanoatmega328new/FrameworkArduino/wiring_pulse.c.o -c -std=gnu11 -fno-fat-lto-objects -mmcu=atmega328p -Os -Wall -ffunction-sections -fdata-sections -flto -DPLATFORMIO=60115 -DARDUINO_AVR_NANO -DF_CPU=16000000L -DARDUINO_ARCH_AVR -DARDUINO=10808 -I/home/lucas/.platformio/packages/framework-arduino-avr/cores/arduino -I/home/lucas/.platformio/packages/framework-arduino-avr/variants/eightanaloginputs /home/lucas/.platformio/packages/framework-arduino-avr/cores/arduino/wiring_pulse.c",
-        "directory": "/home/lucas/Documentos/TCC-Carlos",
+        "directory": "/home/lucas/Documentos/Filament-Maker",
         "file": "/home/lucas/.platformio/packages/framework-arduino-avr/cores/arduino/wiring_pulse.c",
         "output": ".pio/build/nanoatmega328new/FrameworkArduino/wiring_pulse.c.o"
     },
     {
         "command": "/home/lucas/.platformio/packages/toolchain-atmelavr/bin/avr-gcc -o .pio/build/nanoatmega328new/FrameworkArduino/wiring_shift.c.o -c -std=gnu11 -fno-fat-lto-objects -mmcu=atmega328p -Os -Wall -ffunction-sections -fdata-sections -flto -DPLATFORMIO=60115 -DARDUINO_AVR_NANO -DF_CPU=16000000L -DARDUINO_ARCH_AVR -DARDUINO=10808 -I/home/lucas/.platformio/packages/framework-arduino-avr/cores/arduino -I/home/lucas/.platformio/packages/framework-arduino-avr/variants/eightanaloginputs /home/lucas/.platformio/packages/framework-arduino-avr/cores/arduino/wiring_shift.c",
-        "directory": "/home/lucas/Documentos/TCC-Carlos",
+        "directory": "/home/lucas/Documentos/Filament-Maker",
         "file": "/home/lucas/.platformio/packages/framework-arduino-avr/cores/arduino/wiring_shift.c",
         "output": ".pio/build/nanoatmega328new/FrameworkArduino/wiring_shift.c.o"
     },
     {
         "command": "/home/lucas/.platformio/packages/toolchain-atmelavr/bin/avr-g++ -o .pio/build/nanoatmega328new/libf24/Wire/Wire.cpp.o -c -fno-exceptions -fno-threadsafe-statics -fpermissive -std=gnu++11 -mmcu=atmega328p -Os -Wall -ffunction-sections -fdata-sections -flto -DPLATFORMIO=60115 -DARDUINO_AVR_NANO -DF_CPU=16000000L -DARDUINO_ARCH_AVR -DARDUINO=10808 -I/home/lucas/.platformio/packages/framework-arduino-avr/libraries/Wire/src -I/home/lucas/.platformio/packages/framework-arduino-avr/cores/arduino -I/home/lucas/.platformio/packages/framework-arduino-avr/variants/eightanaloginputs /home/lucas/.platformio/packages/framework-arduino-avr/libraries/Wire/src/Wire.cpp",
-        "directory": "/home/lucas/Documentos/TCC-Carlos",
+        "directory": "/home/lucas/Documentos/Filament-Maker",
         "file": "/home/lucas/.platformio/packages/framework-arduino-avr/libraries/Wire/src/Wire.cpp",
         "output": ".pio/build/nanoatmega328new/libf24/Wire/Wire.cpp.o"
     },
     {
         "command": "/home/lucas/.platformio/packages/toolchain-atmelavr/bin/avr-gcc -o .pio/build/nanoatmega328new/libf24/Wire/utility/twi.c.o -c -std=gnu11 -fno-fat-lto-objects -mmcu=atmega328p -Os -Wall -ffunction-sections -fdata-sections -flto -DPLATFORMIO=60115 -DARDUINO_AVR_NANO -DF_CPU=16000000L -DARDUINO_ARCH_AVR -DARDUINO=10808 -I/home/lucas/.platformio/packages/framework-arduino-avr/libraries/Wire/src -I/home/lucas/.platformio/packages/framework-arduino-avr/cores/arduino -I/home/lucas/.platformio/packages/framework-arduino-avr/variants/eightanaloginputs /home/lucas/.platformio/packages/framework-arduino-avr/libraries/Wire/src/utility/twi.c",
-        "directory": "/home/lucas/Documentos/TCC-Carlos",
+        "directory": "/home/lucas/Documentos/Filament-Maker",
         "file": "/home/lucas/.platformio/packages/framework-arduino-avr/libraries/Wire/src/utility/twi.c",
         "output": ".pio/build/nanoatmega328new/libf24/Wire/utility/twi.c.o"
     },
     {
         "command": "/home/lucas/.platformio/packages/toolchain-atmelavr/bin/avr-g++ -o .pio/build/nanoatmega328new/liba90/SPI/SPI.cpp.o -c -fno-exceptions -fno-threadsafe-statics -fpermissive -std=gnu++11 -mmcu=atmega328p -Os -Wall -ffunction-sections -fdata-sections -flto -DPLATFORMIO=60115 -DARDUINO_AVR_NANO -DF_CPU=16000000L -DARDUINO_ARCH_AVR -DARDUINO=10808 -I/home/lucas/.platformio/packages/framework-arduino-avr/libraries/SPI/src -I/home/lucas/.platformio/packages/framework-arduino-avr/cores/arduino -I/home/lucas/.platformio/packages/framework-arduino-avr/variants/eightanaloginputs /home/lucas/.platformio/packages/framework-arduino-avr/libraries/SPI/src/SPI.cpp",
-        "directory": "/home/lucas/Documentos/TCC-Carlos",
+        "directory": "/home/lucas/Documentos/Filament-Maker",
         "file": "/home/lucas/.platformio/packages/framework-arduino-avr/libraries/SPI/src/SPI.cpp",
         "output": ".pio/build/nanoatmega328new/liba90/SPI/SPI.cpp.o"
     },
     {
-        "command": "/home/lucas/.platformio/packages/toolchain-atmelavr/bin/avr-g++ -o \".pio/build/nanoatmega328new/libcbd/Adafruit BusIO/Adafruit_BusIO_Register.cpp.o\" -c -fno-exceptions -fno-threadsafe-statics -fpermissive -std=gnu++11 -mmcu=atmega328p -Os -Wall -ffunction-sections -fdata-sections -flto -DPLATFORMIO=60115 -DARDUINO_AVR_NANO -DF_CPU=16000000L -DARDUINO_ARCH_AVR -DARDUINO=10808 \"-I.pio/libdeps/nanoatmega328new/Adafruit BusIO\" -I/home/lucas/.platformio/packages/framework-arduino-avr/libraries/SPI/src -I/home/lucas/.platformio/packages/framework-arduino-avr/libraries/Wire/src -I/home/lucas/.platformio/packages/framework-arduino-avr/cores/arduino -I/home/lucas/.platformio/packages/framework-arduino-avr/variants/eightanaloginputs \".pio/libdeps/nanoatmega328new/Adafruit BusIO/Adafruit_BusIO_Register.cpp\"",
-        "directory": "/home/lucas/Documentos/TCC-Carlos",
+        "command": "/home/lucas/.platformio/packages/toolchain-atmelavr/bin/avr-g++ -o \".pio/build/nanoatmega328new/libcb2/Adafruit BusIO/Adafruit_BusIO_Register.cpp.o\" -c -fno-exceptions -fno-threadsafe-statics -fpermissive -std=gnu++11 -mmcu=atmega328p -Os -Wall -ffunction-sections -fdata-sections -flto -DPLATFORMIO=60115 -DARDUINO_AVR_NANO -DF_CPU=16000000L -DARDUINO_ARCH_AVR -DARDUINO=10808 \"-I.pio/libdeps/nanoatmega328new/Adafruit BusIO\" -I/home/lucas/.platformio/packages/framework-arduino-avr/libraries/SPI/src -I/home/lucas/.platformio/packages/framework-arduino-avr/libraries/Wire/src -I/home/lucas/.platformio/packages/framework-arduino-avr/cores/arduino -I/home/lucas/.platformio/packages/framework-arduino-avr/variants/eightanaloginputs \".pio/libdeps/nanoatmega328new/Adafruit BusIO/Adafruit_BusIO_Register.cpp\"",
+        "directory": "/home/lucas/Documentos/Filament-Maker",
         "file": ".pio/libdeps/nanoatmega328new/Adafruit BusIO/Adafruit_BusIO_Register.cpp",
-        "output": ".pio/build/nanoatmega328new/libcbd/Adafruit BusIO/Adafruit_BusIO_Register.cpp.o"
+        "output": ".pio/build/nanoatmega328new/libcb2/Adafruit BusIO/Adafruit_BusIO_Register.cpp.o"
     },
     {
-        "command": "/home/lucas/.platformio/packages/toolchain-atmelavr/bin/avr-g++ -o \".pio/build/nanoatmega328new/libcbd/Adafruit BusIO/Adafruit_I2CDevice.cpp.o\" -c -fno-exceptions -fno-threadsafe-statics -fpermissive -std=gnu++11 -mmcu=atmega328p -Os -Wall -ffunction-sections -fdata-sections -flto -DPLATFORMIO=60115 -DARDUINO_AVR_NANO -DF_CPU=16000000L -DARDUINO_ARCH_AVR -DARDUINO=10808 \"-I.pio/libdeps/nanoatmega328new/Adafruit BusIO\" -I/home/lucas/.platformio/packages/framework-arduino-avr/libraries/SPI/src -I/home/lucas/.platformio/packages/framework-arduino-avr/libraries/Wire/src -I/home/lucas/.platformio/packages/framework-arduino-avr/cores/arduino -I/home/lucas/.platformio/packages/framework-arduino-avr/variants/eightanaloginputs \".pio/libdeps/nanoatmega328new/Adafruit BusIO/Adafruit_I2CDevice.cpp\"",
-        "directory": "/home/lucas/Documentos/TCC-Carlos",
+        "command": "/home/lucas/.platformio/packages/toolchain-atmelavr/bin/avr-g++ -o \".pio/build/nanoatmega328new/libcb2/Adafruit BusIO/Adafruit_I2CDevice.cpp.o\" -c -fno-exceptions -fno-threadsafe-statics -fpermissive -std=gnu++11 -mmcu=atmega328p -Os -Wall -ffunction-sections -fdata-sections -flto -DPLATFORMIO=60115 -DARDUINO_AVR_NANO -DF_CPU=16000000L -DARDUINO_ARCH_AVR -DARDUINO=10808 \"-I.pio/libdeps/nanoatmega328new/Adafruit BusIO\" -I/home/lucas/.platformio/packages/framework-arduino-avr/libraries/SPI/src -I/home/lucas/.platformio/packages/framework-arduino-avr/libraries/Wire/src -I/home/lucas/.platformio/packages/framework-arduino-avr/cores/arduino -I/home/lucas/.platformio/packages/framework-arduino-avr/variants/eightanaloginputs \".pio/libdeps/nanoatmega328new/Adafruit BusIO/Adafruit_I2CDevice.cpp\"",
+        "directory": "/home/lucas/Documentos/Filament-Maker",
         "file": ".pio/libdeps/nanoatmega328new/Adafruit BusIO/Adafruit_I2CDevice.cpp",
-        "output": ".pio/build/nanoatmega328new/libcbd/Adafruit BusIO/Adafruit_I2CDevice.cpp.o"
+        "output": ".pio/build/nanoatmega328new/libcb2/Adafruit BusIO/Adafruit_I2CDevice.cpp.o"
     },
     {
-        "command": "/home/lucas/.platformio/packages/toolchain-atmelavr/bin/avr-g++ -o \".pio/build/nanoatmega328new/libcbd/Adafruit BusIO/Adafruit_SPIDevice.cpp.o\" -c -fno-exceptions -fno-threadsafe-statics -fpermissive -std=gnu++11 -mmcu=atmega328p -Os -Wall -ffunction-sections -fdata-sections -flto -DPLATFORMIO=60115 -DARDUINO_AVR_NANO -DF_CPU=16000000L -DARDUINO_ARCH_AVR -DARDUINO=10808 \"-I.pio/libdeps/nanoatmega328new/Adafruit BusIO\" -I/home/lucas/.platformio/packages/framework-arduino-avr/libraries/SPI/src -I/home/lucas/.platformio/packages/framework-arduino-avr/libraries/Wire/src -I/home/lucas/.platformio/packages/framework-arduino-avr/cores/arduino -I/home/lucas/.platformio/packages/framework-arduino-avr/variants/eightanaloginputs \".pio/libdeps/nanoatmega328new/Adafruit BusIO/Adafruit_SPIDevice.cpp\"",
-        "directory": "/home/lucas/Documentos/TCC-Carlos",
+        "command": "/home/lucas/.platformio/packages/toolchain-atmelavr/bin/avr-g++ -o \".pio/build/nanoatmega328new/libcb2/Adafruit BusIO/Adafruit_SPIDevice.cpp.o\" -c -fno-exceptions -fno-threadsafe-statics -fpermissive -std=gnu++11 -mmcu=atmega328p -Os -Wall -ffunction-sections -fdata-sections -flto -DPLATFORMIO=60115 -DARDUINO_AVR_NANO -DF_CPU=16000000L -DARDUINO_ARCH_AVR -DARDUINO=10808 \"-I.pio/libdeps/nanoatmega328new/Adafruit BusIO\" -I/home/lucas/.platformio/packages/framework-arduino-avr/libraries/SPI/src -I/home/lucas/.platformio/packages/framework-arduino-avr/libraries/Wire/src -I/home/lucas/.platformio/packages/framework-arduino-avr/cores/arduino -I/home/lucas/.platformio/packages/framework-arduino-avr/variants/eightanaloginputs \".pio/libdeps/nanoatmega328new/Adafruit BusIO/Adafruit_SPIDevice.cpp\"",
+        "directory": "/home/lucas/Documentos/Filament-Maker",
         "file": ".pio/libdeps/nanoatmega328new/Adafruit BusIO/Adafruit_SPIDevice.cpp",
-        "output": ".pio/build/nanoatmega328new/libcbd/Adafruit BusIO/Adafruit_SPIDevice.cpp.o"
+        "output": ".pio/build/nanoatmega328new/libcb2/Adafruit BusIO/Adafruit_SPIDevice.cpp.o"
     },
     {
-        "command": "/home/lucas/.platformio/packages/toolchain-atmelavr/bin/avr-g++ -o \".pio/build/nanoatmega328new/lib337/Adafruit GFX Library/Adafruit_GFX.cpp.o\" -c -fno-exceptions -fno-threadsafe-statics -fpermissive -std=gnu++11 -mmcu=atmega328p -Os -Wall -ffunction-sections -fdata-sections -flto -DPLATFORMIO=60115 -DARDUINO_AVR_NANO -DF_CPU=16000000L -DARDUINO_ARCH_AVR -DARDUINO=10808 \"-I.pio/libdeps/nanoatmega328new/Adafruit GFX Library\" \"-I.pio/libdeps/nanoatmega328new/Adafruit BusIO\" -I/home/lucas/.platformio/packages/framework-arduino-avr/libraries/SPI/src -I/home/lucas/.platformio/packages/framework-arduino-avr/libraries/Wire/src -I/home/lucas/.platformio/packages/framework-arduino-avr/cores/arduino -I/home/lucas/.platformio/packages/framework-arduino-avr/variants/eightanaloginputs \".pio/libdeps/nanoatmega328new/Adafruit GFX Library/Adafruit_GFX.cpp\"",
-        "directory": "/home/lucas/Documentos/TCC-Carlos",
+        "command": "/home/lucas/.platformio/packages/toolchain-atmelavr/bin/avr-g++ -o \".pio/build/nanoatmega328new/lib9f4/Adafruit GFX Library/Adafruit_GFX.cpp.o\" -c -fno-exceptions -fno-threadsafe-statics -fpermissive -std=gnu++11 -mmcu=atmega328p -Os -Wall -ffunction-sections -fdata-sections -flto -DPLATFORMIO=60115 -DARDUINO_AVR_NANO -DF_CPU=16000000L -DARDUINO_ARCH_AVR -DARDUINO=10808 \"-I.pio/libdeps/nanoatmega328new/Adafruit GFX Library\" \"-I.pio/libdeps/nanoatmega328new/Adafruit BusIO\" -I/home/lucas/.platformio/packages/framework-arduino-avr/libraries/SPI/src -I/home/lucas/.platformio/packages/framework-arduino-avr/libraries/Wire/src -I/home/lucas/.platformio/packages/framework-arduino-avr/cores/arduino -I/home/lucas/.platformio/packages/framework-arduino-avr/variants/eightanaloginputs \".pio/libdeps/nanoatmega328new/Adafruit GFX Library/Adafruit_GFX.cpp\"",
+        "directory": "/home/lucas/Documentos/Filament-Maker",
         "file": ".pio/libdeps/nanoatmega328new/Adafruit GFX Library/Adafruit_GFX.cpp",
-        "output": ".pio/build/nanoatmega328new/lib337/Adafruit GFX Library/Adafruit_GFX.cpp.o"
+        "output": ".pio/build/nanoatmega328new/lib9f4/Adafruit GFX Library/Adafruit_GFX.cpp.o"
     },
     {
-        "command": "/home/lucas/.platformio/packages/toolchain-atmelavr/bin/avr-g++ -o \".pio/build/nanoatmega328new/lib337/Adafruit GFX Library/Adafruit_GrayOLED.cpp.o\" -c -fno-exceptions -fno-threadsafe-statics -fpermissive -std=gnu++11 -mmcu=atmega328p -Os -Wall -ffunction-sections -fdata-sections -flto -DPLATFORMIO=60115 -DARDUINO_AVR_NANO -DF_CPU=16000000L -DARDUINO_ARCH_AVR -DARDUINO=10808 \"-I.pio/libdeps/nanoatmega328new/Adafruit GFX Library\" \"-I.pio/libdeps/nanoatmega328new/Adafruit BusIO\" -I/home/lucas/.platformio/packages/framework-arduino-avr/libraries/SPI/src -I/home/lucas/.platformio/packages/framework-arduino-avr/libraries/Wire/src -I/home/lucas/.platformio/packages/framework-arduino-avr/cores/arduino -I/home/lucas/.platformio/packages/framework-arduino-avr/variants/eightanaloginputs \".pio/libdeps/nanoatmega328new/Adafruit GFX Library/Adafruit_GrayOLED.cpp\"",
-        "directory": "/home/lucas/Documentos/TCC-Carlos",
+        "command": "/home/lucas/.platformio/packages/toolchain-atmelavr/bin/avr-g++ -o \".pio/build/nanoatmega328new/lib9f4/Adafruit GFX Library/Adafruit_GrayOLED.cpp.o\" -c -fno-exceptions -fno-threadsafe-statics -fpermissive -std=gnu++11 -mmcu=atmega328p -Os -Wall -ffunction-sections -fdata-sections -flto -DPLATFORMIO=60115 -DARDUINO_AVR_NANO -DF_CPU=16000000L -DARDUINO_ARCH_AVR -DARDUINO=10808 \"-I.pio/libdeps/nanoatmega328new/Adafruit GFX Library\" \"-I.pio/libdeps/nanoatmega328new/Adafruit BusIO\" -I/home/lucas/.platformio/packages/framework-arduino-avr/libraries/SPI/src -I/home/lucas/.platformio/packages/framework-arduino-avr/libraries/Wire/src -I/home/lucas/.platformio/packages/framework-arduino-avr/cores/arduino -I/home/lucas/.platformio/packages/framework-arduino-avr/variants/eightanaloginputs \".pio/libdeps/nanoatmega328new/Adafruit GFX Library/Adafruit_GrayOLED.cpp\"",
+        "directory": "/home/lucas/Documentos/Filament-Maker",
         "file": ".pio/libdeps/nanoatmega328new/Adafruit GFX Library/Adafruit_GrayOLED.cpp",
-        "output": ".pio/build/nanoatmega328new/lib337/Adafruit GFX Library/Adafruit_GrayOLED.cpp.o"
+        "output": ".pio/build/nanoatmega328new/lib9f4/Adafruit GFX Library/Adafruit_GrayOLED.cpp.o"
     },
     {
-        "command": "/home/lucas/.platformio/packages/toolchain-atmelavr/bin/avr-g++ -o \".pio/build/nanoatmega328new/lib337/Adafruit GFX Library/Adafruit_SPITFT.cpp.o\" -c -fno-exceptions -fno-threadsafe-statics -fpermissive -std=gnu++11 -mmcu=atmega328p -Os -Wall -ffunction-sections -fdata-sections -flto -DPLATFORMIO=60115 -DARDUINO_AVR_NANO -DF_CPU=16000000L -DARDUINO_ARCH_AVR -DARDUINO=10808 \"-I.pio/libdeps/nanoatmega328new/Adafruit GFX Library\" \"-I.pio/libdeps/nanoatmega328new/Adafruit BusIO\" -I/home/lucas/.platformio/packages/framework-arduino-avr/libraries/SPI/src -I/home/lucas/.platformio/packages/framework-arduino-avr/libraries/Wire/src -I/home/lucas/.platformio/packages/framework-arduino-avr/cores/arduino -I/home/lucas/.platformio/packages/framework-arduino-avr/variants/eightanaloginputs \".pio/libdeps/nanoatmega328new/Adafruit GFX Library/Adafruit_SPITFT.cpp\"",
-        "directory": "/home/lucas/Documentos/TCC-Carlos",
+        "command": "/home/lucas/.platformio/packages/toolchain-atmelavr/bin/avr-g++ -o \".pio/build/nanoatmega328new/lib9f4/Adafruit GFX Library/Adafruit_SPITFT.cpp.o\" -c -fno-exceptions -fno-threadsafe-statics -fpermissive -std=gnu++11 -mmcu=atmega328p -Os -Wall -ffunction-sections -fdata-sections -flto -DPLATFORMIO=60115 -DARDUINO_AVR_NANO -DF_CPU=16000000L -DARDUINO_ARCH_AVR -DARDUINO=10808 \"-I.pio/libdeps/nanoatmega328new/Adafruit GFX Library\" \"-I.pio/libdeps/nanoatmega328new/Adafruit BusIO\" -I/home/lucas/.platformio/packages/framework-arduino-avr/libraries/SPI/src -I/home/lucas/.platformio/packages/framework-arduino-avr/libraries/Wire/src -I/home/lucas/.platformio/packages/framework-arduino-avr/cores/arduino -I/home/lucas/.platformio/packages/framework-arduino-avr/variants/eightanaloginputs \".pio/libdeps/nanoatmega328new/Adafruit GFX Library/Adafruit_SPITFT.cpp\"",
+        "directory": "/home/lucas/Documentos/Filament-Maker",
         "file": ".pio/libdeps/nanoatmega328new/Adafruit GFX Library/Adafruit_SPITFT.cpp",
-        "output": ".pio/build/nanoatmega328new/lib337/Adafruit GFX Library/Adafruit_SPITFT.cpp.o"
+        "output": ".pio/build/nanoatmega328new/lib9f4/Adafruit GFX Library/Adafruit_SPITFT.cpp.o"
     },
     {
-        "command": "/home/lucas/.platformio/packages/toolchain-atmelavr/bin/avr-gcc -o \".pio/build/nanoatmega328new/lib337/Adafruit GFX Library/glcdfont.c.o\" -c -std=gnu11 -fno-fat-lto-objects -mmcu=atmega328p -Os -Wall -ffunction-sections -fdata-sections -flto -DPLATFORMIO=60115 -DARDUINO_AVR_NANO -DF_CPU=16000000L -DARDUINO_ARCH_AVR -DARDUINO=10808 \"-I.pio/libdeps/nanoatmega328new/Adafruit GFX Library\" \"-I.pio/libdeps/nanoatmega328new/Adafruit BusIO\" -I/home/lucas/.platformio/packages/framework-arduino-avr/libraries/SPI/src -I/home/lucas/.platformio/packages/framework-arduino-avr/libraries/Wire/src -I/home/lucas/.platformio/packages/framework-arduino-avr/cores/arduino -I/home/lucas/.platformio/packages/framework-arduino-avr/variants/eightanaloginputs \".pio/libdeps/nanoatmega328new/Adafruit GFX Library/glcdfont.c\"",
-        "directory": "/home/lucas/Documentos/TCC-Carlos",
+        "command": "/home/lucas/.platformio/packages/toolchain-atmelavr/bin/avr-gcc -o \".pio/build/nanoatmega328new/lib9f4/Adafruit GFX Library/glcdfont.c.o\" -c -std=gnu11 -fno-fat-lto-objects -mmcu=atmega328p -Os -Wall -ffunction-sections -fdata-sections -flto -DPLATFORMIO=60115 -DARDUINO_AVR_NANO -DF_CPU=16000000L -DARDUINO_ARCH_AVR -DARDUINO=10808 \"-I.pio/libdeps/nanoatmega328new/Adafruit GFX Library\" \"-I.pio/libdeps/nanoatmega328new/Adafruit BusIO\" -I/home/lucas/.platformio/packages/framework-arduino-avr/libraries/SPI/src -I/home/lucas/.platformio/packages/framework-arduino-avr/libraries/Wire/src -I/home/lucas/.platformio/packages/framework-arduino-avr/cores/arduino -I/home/lucas/.platformio/packages/framework-arduino-avr/variants/eightanaloginputs \".pio/libdeps/nanoatmega328new/Adafruit GFX Library/glcdfont.c\"",
+        "directory": "/home/lucas/Documentos/Filament-Maker",
         "file": ".pio/libdeps/nanoatmega328new/Adafruit GFX Library/glcdfont.c",
-        "output": ".pio/build/nanoatmega328new/lib337/Adafruit GFX Library/glcdfont.c.o"
+        "output": ".pio/build/nanoatmega328new/lib9f4/Adafruit GFX Library/glcdfont.c.o"
     },
     {
-        "command": "/home/lucas/.platformio/packages/toolchain-atmelavr/bin/avr-g++ -o \".pio/build/nanoatmega328new/lib22c/Adafruit SSD1306/Adafruit_SSD1306.cpp.o\" -c -fno-exceptions -fno-threadsafe-statics -fpermissive -std=gnu++11 -mmcu=atmega328p -Os -Wall -ffunction-sections -fdata-sections -flto -DPLATFORMIO=60115 -DARDUINO_AVR_NANO -DF_CPU=16000000L -DARDUINO_ARCH_AVR -DARDUINO=10808 \"-I.pio/libdeps/nanoatmega328new/Adafruit SSD1306\" \"-I.pio/libdeps/nanoatmega328new/Adafruit GFX Library\" \"-I.pio/libdeps/nanoatmega328new/Adafruit BusIO\" -I/home/lucas/.platformio/packages/framework-arduino-avr/libraries/SPI/src -I/home/lucas/.platformio/packages/framework-arduino-avr/libraries/Wire/src -I/home/lucas/.platformio/packages/framework-arduino-avr/cores/arduino -I/home/lucas/.platformio/packages/framework-arduino-avr/variants/eightanaloginputs \".pio/libdeps/nanoatmega328new/Adafruit SSD1306/Adafruit_SSD1306.cpp\"",
-        "directory": "/home/lucas/Documentos/TCC-Carlos",
+        "command": "/home/lucas/.platformio/packages/toolchain-atmelavr/bin/avr-g++ -o \".pio/build/nanoatmega328new/libc58/Adafruit SSD1306/Adafruit_SSD1306.cpp.o\" -c -fno-exceptions -fno-threadsafe-statics -fpermissive -std=gnu++11 -mmcu=atmega328p -Os -Wall -ffunction-sections -fdata-sections -flto -DPLATFORMIO=60115 -DARDUINO_AVR_NANO -DF_CPU=16000000L -DARDUINO_ARCH_AVR -DARDUINO=10808 \"-I.pio/libdeps/nanoatmega328new/Adafruit SSD1306\" \"-I.pio/libdeps/nanoatmega328new/Adafruit GFX Library\" \"-I.pio/libdeps/nanoatmega328new/Adafruit BusIO\" -I/home/lucas/.platformio/packages/framework-arduino-avr/libraries/SPI/src -I/home/lucas/.platformio/packages/framework-arduino-avr/libraries/Wire/src -I/home/lucas/.platformio/packages/framework-arduino-avr/cores/arduino -I/home/lucas/.platformio/packages/framework-arduino-avr/variants/eightanaloginputs \".pio/libdeps/nanoatmega328new/Adafruit SSD1306/Adafruit_SSD1306.cpp\"",
+        "directory": "/home/lucas/Documentos/Filament-Maker",
         "file": ".pio/libdeps/nanoatmega328new/Adafruit SSD1306/Adafruit_SSD1306.cpp",
-        "output": ".pio/build/nanoatmega328new/lib22c/Adafruit SSD1306/Adafruit_SSD1306.cpp.o"
+        "output": ".pio/build/nanoatmega328new/libc58/Adafruit SSD1306/Adafruit_SSD1306.cpp.o"
     },
     {
-        "command": "/home/lucas/.platformio/packages/toolchain-atmelavr/bin/avr-g++ -o .pio/build/nanoatmega328new/liba31/ThermistorLibrary/thermistor.cpp.o -c -fno-exceptions -fno-threadsafe-statics -fpermissive -std=gnu++11 -mmcu=atmega328p -Os -Wall -ffunction-sections -fdata-sections -flto -DPLATFORMIO=60115 -DARDUINO_AVR_NANO -DF_CPU=16000000L -DARDUINO_ARCH_AVR -DARDUINO=10808 -I.pio/libdeps/nanoatmega328new/ThermistorLibrary/src -I/home/lucas/.platformio/packages/framework-arduino-avr/cores/arduino -I/home/lucas/.platformio/packages/framework-arduino-avr/variants/eightanaloginputs .pio/libdeps/nanoatmega328new/ThermistorLibrary/src/thermistor.cpp",
-        "directory": "/home/lucas/Documentos/TCC-Carlos",
-        "file": ".pio/libdeps/nanoatmega328new/ThermistorLibrary/src/thermistor.cpp",
-        "output": ".pio/build/nanoatmega328new/liba31/ThermistorLibrary/thermistor.cpp.o"
-    },
-    {
-        "command": "/home/lucas/.platformio/packages/toolchain-atmelavr/bin/avr-g++ -o .pio/build/nanoatmega328new/lib089/AccelStepper/AccelStepper.cpp.o -c -fno-exceptions -fno-threadsafe-statics -fpermissive -std=gnu++11 -mmcu=atmega328p -Os -Wall -ffunction-sections -fdata-sections -flto -DPLATFORMIO=60115 -DARDUINO_AVR_NANO -DF_CPU=16000000L -DARDUINO_ARCH_AVR -DARDUINO=10808 -I.pio/libdeps/nanoatmega328new/AccelStepper/src -I/home/lucas/.platformio/packages/framework-arduino-avr/cores/arduino -I/home/lucas/.platformio/packages/framework-arduino-avr/variants/eightanaloginputs .pio/libdeps/nanoatmega328new/AccelStepper/src/AccelStepper.cpp",
-        "directory": "/home/lucas/Documentos/TCC-Carlos",
+        "command": "/home/lucas/.platformio/packages/toolchain-atmelavr/bin/avr-g++ -o .pio/build/nanoatmega328new/libf6d/AccelStepper/AccelStepper.cpp.o -c -fno-exceptions -fno-threadsafe-statics -fpermissive -std=gnu++11 -mmcu=atmega328p -Os -Wall -ffunction-sections -fdata-sections -flto -DPLATFORMIO=60115 -DARDUINO_AVR_NANO -DF_CPU=16000000L -DARDUINO_ARCH_AVR -DARDUINO=10808 -I.pio/libdeps/nanoatmega328new/AccelStepper/src -I/home/lucas/.platformio/packages/framework-arduino-avr/cores/arduino -I/home/lucas/.platformio/packages/framework-arduino-avr/variants/eightanaloginputs .pio/libdeps/nanoatmega328new/AccelStepper/src/AccelStepper.cpp",
+        "directory": "/home/lucas/Documentos/Filament-Maker",
         "file": ".pio/libdeps/nanoatmega328new/AccelStepper/src/AccelStepper.cpp",
-        "output": ".pio/build/nanoatmega328new/lib089/AccelStepper/AccelStepper.cpp.o"
+        "output": ".pio/build/nanoatmega328new/libf6d/AccelStepper/AccelStepper.cpp.o"
     },
     {
-        "command": "/home/lucas/.platformio/packages/toolchain-atmelavr/bin/avr-g++ -o .pio/build/nanoatmega328new/lib089/AccelStepper/MultiStepper.cpp.o -c -fno-exceptions -fno-threadsafe-statics -fpermissive -std=gnu++11 -mmcu=atmega328p -Os -Wall -ffunction-sections -fdata-sections -flto -DPLATFORMIO=60115 -DARDUINO_AVR_NANO -DF_CPU=16000000L -DARDUINO_ARCH_AVR -DARDUINO=10808 -I.pio/libdeps/nanoatmega328new/AccelStepper/src -I/home/lucas/.platformio/packages/framework-arduino-avr/cores/arduino -I/home/lucas/.platformio/packages/framework-arduino-avr/variants/eightanaloginputs .pio/libdeps/nanoatmega328new/AccelStepper/src/MultiStepper.cpp",
-        "directory": "/home/lucas/Documentos/TCC-Carlos",
+        "command": "/home/lucas/.platformio/packages/toolchain-atmelavr/bin/avr-g++ -o .pio/build/nanoatmega328new/libf6d/AccelStepper/MultiStepper.cpp.o -c -fno-exceptions -fno-threadsafe-statics -fpermissive -std=gnu++11 -mmcu=atmega328p -Os -Wall -ffunction-sections -fdata-sections -flto -DPLATFORMIO=60115 -DARDUINO_AVR_NANO -DF_CPU=16000000L -DARDUINO_ARCH_AVR -DARDUINO=10808 -I.pio/libdeps/nanoatmega328new/AccelStepper/src -I/home/lucas/.platformio/packages/framework-arduino-avr/cores/arduino -I/home/lucas/.platformio/packages/framework-arduino-avr/variants/eightanaloginputs .pio/libdeps/nanoatmega328new/AccelStepper/src/MultiStepper.cpp",
+        "directory": "/home/lucas/Documentos/Filament-Maker",
         "file": ".pio/libdeps/nanoatmega328new/AccelStepper/src/MultiStepper.cpp",
-        "output": ".pio/build/nanoatmega328new/lib089/AccelStepper/MultiStepper.cpp.o"
+        "output": ".pio/build/nanoatmega328new/libf6d/AccelStepper/MultiStepper.cpp.o"
     },
     {
-        "command": "/home/lucas/.platformio/packages/toolchain-atmelavr/bin/avr-g++ -o .pio/build/nanoatmega328new/src/oled.cpp.o -c -fno-exceptions -fno-threadsafe-statics -fpermissive -std=gnu++11 -mmcu=atmega328p -Os -Wall -ffunction-sections -fdata-sections -flto -DPLATFORMIO=60115 -DARDUINO_AVR_NANO -DF_CPU=16000000L -DARDUINO_ARCH_AVR -DARDUINO=10808 -Iinclude -Isrc -I.pio/libdeps/nanoatmega328new/AccelStepper/src -I.pio/libdeps/nanoatmega328new/ThermistorLibrary/src \"-I.pio/libdeps/nanoatmega328new/Adafruit SSD1306\" \"-I.pio/libdeps/nanoatmega328new/Adafruit GFX Library\" \"-I.pio/libdeps/nanoatmega328new/Adafruit BusIO\" -I/home/lucas/.platformio/packages/framework-arduino-avr/libraries/SPI/src -I/home/lucas/.platformio/packages/framework-arduino-avr/libraries/Wire/src -I/home/lucas/.platformio/packages/framework-arduino-avr/cores/arduino -I/home/lucas/.platformio/packages/framework-arduino-avr/variants/eightanaloginputs src/oled.cpp",
-        "directory": "/home/lucas/Documentos/TCC-Carlos",
-        "file": "src/oled.cpp",
-        "output": ".pio/build/nanoatmega328new/src/oled.cpp.o"
+        "command": "/home/lucas/.platformio/packages/toolchain-atmelavr/bin/avr-g++ -o .pio/build/nanoatmega328new/libf66/NTC_Thermistor/AverageThermistor.cpp.o -c -fno-exceptions -fno-threadsafe-statics -fpermissive -std=gnu++11 -mmcu=atmega328p -Os -Wall -ffunction-sections -fdata-sections -flto -DPLATFORMIO=60115 -DARDUINO_AVR_NANO -DF_CPU=16000000L -DARDUINO_ARCH_AVR -DARDUINO=10808 -I.pio/libdeps/nanoatmega328new/NTC_Thermistor/src -I/home/lucas/.platformio/packages/framework-arduino-avr/cores/arduino -I/home/lucas/.platformio/packages/framework-arduino-avr/variants/eightanaloginputs .pio/libdeps/nanoatmega328new/NTC_Thermistor/src/AverageThermistor.cpp",
+        "directory": "/home/lucas/Documentos/Filament-Maker",
+        "file": ".pio/libdeps/nanoatmega328new/NTC_Thermistor/src/AverageThermistor.cpp",
+        "output": ".pio/build/nanoatmega328new/libf66/NTC_Thermistor/AverageThermistor.cpp.o"
+    },
+    {
+        "command": "/home/lucas/.platformio/packages/toolchain-atmelavr/bin/avr-g++ -o .pio/build/nanoatmega328new/libf66/NTC_Thermistor/NTC_Thermistor.cpp.o -c -fno-exceptions -fno-threadsafe-statics -fpermissive -std=gnu++11 -mmcu=atmega328p -Os -Wall -ffunction-sections -fdata-sections -flto -DPLATFORMIO=60115 -DARDUINO_AVR_NANO -DF_CPU=16000000L -DARDUINO_ARCH_AVR -DARDUINO=10808 -I.pio/libdeps/nanoatmega328new/NTC_Thermistor/src -I/home/lucas/.platformio/packages/framework-arduino-avr/cores/arduino -I/home/lucas/.platformio/packages/framework-arduino-avr/variants/eightanaloginputs .pio/libdeps/nanoatmega328new/NTC_Thermistor/src/NTC_Thermistor.cpp",
+        "directory": "/home/lucas/Documentos/Filament-Maker",
+        "file": ".pio/libdeps/nanoatmega328new/NTC_Thermistor/src/NTC_Thermistor.cpp",
+        "output": ".pio/build/nanoatmega328new/libf66/NTC_Thermistor/NTC_Thermistor.cpp.o"
+    },
+    {
+        "command": "/home/lucas/.platformio/packages/toolchain-atmelavr/bin/avr-g++ -o .pio/build/nanoatmega328new/libf66/NTC_Thermistor/SmoothThermistor.cpp.o -c -fno-exceptions -fno-threadsafe-statics -fpermissive -std=gnu++11 -mmcu=atmega328p -Os -Wall -ffunction-sections -fdata-sections -flto -DPLATFORMIO=60115 -DARDUINO_AVR_NANO -DF_CPU=16000000L -DARDUINO_ARCH_AVR -DARDUINO=10808 -I.pio/libdeps/nanoatmega328new/NTC_Thermistor/src -I/home/lucas/.platformio/packages/framework-arduino-avr/cores/arduino -I/home/lucas/.platformio/packages/framework-arduino-avr/variants/eightanaloginputs .pio/libdeps/nanoatmega328new/NTC_Thermistor/src/SmoothThermistor.cpp",
+        "directory": "/home/lucas/Documentos/Filament-Maker",
+        "file": ".pio/libdeps/nanoatmega328new/NTC_Thermistor/src/SmoothThermistor.cpp",
+        "output": ".pio/build/nanoatmega328new/libf66/NTC_Thermistor/SmoothThermistor.cpp.o"
+    },
+    {
+        "command": "/home/lucas/.platformio/packages/toolchain-atmelavr/bin/avr-g++ -o .pio/build/nanoatmega328new/libd88/thermistor/thermistor.cpp.o -c -fno-exceptions -fno-threadsafe-statics -fpermissive -std=gnu++11 -mmcu=atmega328p -Os -Wall -ffunction-sections -fdata-sections -flto -DPLATFORMIO=60115 -DARDUINO_AVR_NANO -DF_CPU=16000000L -DARDUINO_ARCH_AVR -DARDUINO=10808 -I.pio/libdeps/nanoatmega328new/thermistor -I/home/lucas/.platformio/packages/framework-arduino-avr/cores/arduino -I/home/lucas/.platformio/packages/framework-arduino-avr/variants/eightanaloginputs .pio/libdeps/nanoatmega328new/thermistor/thermistor.cpp",
+        "directory": "/home/lucas/Documentos/Filament-Maker",
+        "file": ".pio/libdeps/nanoatmega328new/thermistor/thermistor.cpp",
+        "output": ".pio/build/nanoatmega328new/libd88/thermistor/thermistor.cpp.o"
+    },
+    {
+        "command": "/home/lucas/.platformio/packages/toolchain-atmelavr/bin/avr-g++ -o .pio/build/nanoatmega328new/src/main.cpp.o -c -fno-exceptions -fno-threadsafe-statics -fpermissive -std=gnu++11 -mmcu=atmega328p -Os -Wall -ffunction-sections -fdata-sections -flto -DPLATFORMIO=60115 -DARDUINO_AVR_NANO -DF_CPU=16000000L -DARDUINO_ARCH_AVR -DARDUINO=10808 -Iinclude -Isrc -I.pio/libdeps/nanoatmega328new/thermistor -I.pio/libdeps/nanoatmega328new/NTC_Thermistor/src -I.pio/libdeps/nanoatmega328new/AccelStepper/src \"-I.pio/libdeps/nanoatmega328new/Adafruit SSD1306\" \"-I.pio/libdeps/nanoatmega328new/Adafruit GFX Library\" \"-I.pio/libdeps/nanoatmega328new/Adafruit BusIO\" -I/home/lucas/.platformio/packages/framework-arduino-avr/libraries/SPI/src -I/home/lucas/.platformio/packages/framework-arduino-avr/libraries/Wire/src -I/home/lucas/.platformio/packages/framework-arduino-avr/cores/arduino -I/home/lucas/.platformio/packages/framework-arduino-avr/variants/eightanaloginputs src/main.cpp",
+        "directory": "/home/lucas/Documentos/Filament-Maker",
+        "file": "src/main.cpp",
+        "output": ".pio/build/nanoatmega328new/src/main.cpp.o"
     }
 ]
