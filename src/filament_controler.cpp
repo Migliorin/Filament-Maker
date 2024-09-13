@@ -31,6 +31,7 @@ int activate_system = false;   // Sistema ativado/desativado
 int state = 0;          // Estado do sistema
 float fan_speed = 0.0;  // Velocidade do ventilador
 float hot_temp = 0.0;   // Temperatura ajustada do HOTEND
+int perc_potenciometro = 0; // Porcentagem do estado do potenciometro 
 
 // Função para converter o valor do potenciômetro em temperatura
 double bits2temp(float *temp) {
@@ -117,7 +118,7 @@ void loop() {
             case 1:
                 // Ajusta a velocidade do motor com base no potenciômetro
                 rotating_speed = map(analogRead(SPEED_POT), 0, 1024, 0, max_speed);
-                stepper_controler.setSpeed(rotating_speed);
+                stepper_controler.setSpeed(-rotating_speed);
                 break;
             case 2:
                 // Ajusta a velocidade do ventilador com base no potenciômetro
@@ -141,6 +142,8 @@ void loop() {
     if (currentMillis - previousMillis >= interval) {
         previousMillis = currentMillis; // Atualiza o último tempo de atualização
 
+	perc_potenciometro = map(analogRead(SPEED_POT), 0, 1024, 0, 101);
+
         // Lê a temperatura do sensor
         temperature_read = therm1.analog2temp();
 
@@ -150,7 +153,8 @@ void loop() {
 
         // Exibe a velocidade do motor em porcentagem
         display.print(F("ROT:"));
-        display.print(rotating_speed * 0.1);
+        //display.print(rotating_speed * 0.1);
+	display.print(map(rotating_speed,0,max_speed,0,101));
         display.println("%");
 
         // Exibe a temperatura lida
@@ -184,6 +188,16 @@ void loop() {
         } else {
             display.print("N/A"); // Estado não disponível
         }
+
+	display.println("");
+	display.print("POT:");
+	display.print(perc_potenciometro);
+	display.print("%");
+
+        display.print(" ");
+	display.print("FAN:");
+	display.print(map(fan_speed,0,255,0,101));
+	display.print("%");
 
         // Atualiza o conteúdo no display
         display.display();
