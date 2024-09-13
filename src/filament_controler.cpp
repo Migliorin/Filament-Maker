@@ -1,19 +1,5 @@
-// Definição dos pinos utilizados no projeto
-#define TEMP_PIN A0 // Pino de leitura de temperatura
-#define EN_PIN    2 // Pino de enable do driver TCM2208
-#define STEP_PIN  3 // Pino de step do driver TCM2208
-#define DIR_PIN   4 // Pino de direção do driver TCM2208
-#define SPEED_POT A1 // Pino de entrada do potenciômetro de controle de velocidade
-#define BUT_EN_START 7 // Botão de start do motor
-#define SCREEN_WIDTH 128 // Largura do display OLED em pixels
-#define SCREEN_HEIGHT 32 // Altura do display OLED em pixels
-#define OLED_RESET     -1 // Pino de reset do OLED (ou -1 se usar o reset do Arduino)
-#define SCREEN_ADDRESS 0x3C ///< Endereço I2C do display OLED
-#define PWM_PIN_MOSFET_HOTEND 5 // Pino que controla o HOTEND (aquecedor)
-#define PWM_FAN 6 // Pino que controla a FAN (ventilador)
-#define SECOND_BTN 10 // Botão secundário para controlar estado e ajustes
-
 // Importação das bibliotecas necessárias
+#include <configuration.h>
 #include <Arduino.h>
 #include <SPI.h>
 #include <Wire.h>
@@ -23,7 +9,7 @@
 #include <thermistor.h>
 
 // Declaração de variáveis globais
-int max_speed = 1000;  // Velocidade máxima do motor de passo
+int max_speed = 100;  // Velocidade máxima do motor de passo
 int rotating_speed = 0; // Velocidade de rotação ajustada
 int but;                // Estado do botão de start
 double temperature_read = 0.0; // Valor lido do sensor de temperatura
@@ -150,25 +136,9 @@ void loop() {
         // Atualiza o display OLED
         display.clearDisplay();
         display.setCursor(0, 0); // Posição inicial do texto
-
-        // Exibe a velocidade do motor em porcentagem
-        display.print(F("ROT:"));
-        //display.print(rotating_speed * 0.1);
-	display.print(map(rotating_speed,0,max_speed,0,101));
-        display.println("%");
-
-        // Exibe a temperatura lida
-        display.print(F("TERM:"));
-        display.print(temperature_read);
-        display.print(" ");
-
-        // Exibe a temperatura ajustada
-        display.print("SET:");
-        display.print(bits2temp(&hot_temp));
-        display.println("");
-
-        // Exibe o estado do sistema (ativado/desativado)
-        display.print("Act:");
+	
+	// Exibe o estado do sistema (ativado/desativado)
+        display.print("ACT:");
         if (activate_system) {
             display.print("ON");
         } else {
@@ -190,6 +160,23 @@ void loop() {
         }
 
 	display.println("");
+
+	// Exibe a velocidade do motor em porcentagem
+        display.print(F("ROT:"));     
+	display.print(map(rotating_speed,0,max_speed,0,101));
+	display.println("%");
+
+        // Exibe a temperatura lida
+        display.print(F("TERM:"));
+        display.print(temperature_read);
+        display.print(" ");
+
+        // Exibe a temperatura ajustada
+        display.print("SET:");
+        display.print(bits2temp(&hot_temp));
+        display.println("");
+
+        
 	display.print("POT:");
 	display.print(perc_potenciometro);
 	display.print("%");
