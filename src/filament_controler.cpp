@@ -177,14 +177,14 @@ void loop() {
         display.println("");
 
         
-	display.print("POT:");
-	display.print(perc_potenciometro);
-	display.print("%");
-
-        display.print(" ");
-	display.print("FAN:");
-	display.print(map(fan_speed,0,255,0,101));
-	display.print("%");
+		display.print("POT:");
+		display.print(perc_potenciometro);
+		display.print("%");
+	
+	    display.print(" ");
+		display.print("FAN:");
+		display.print(map(fan_speed,0,255,0,101));
+		display.print("%");
 
         // Atualiza o conteúdo no display
         display.display();
